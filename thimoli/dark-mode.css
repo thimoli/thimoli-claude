@@ -1,0 +1,65 @@
+/* Shared night palette. Artwork keeps its original colours and transparency. */
+html[data-theme=dark] :is(.sp-goal small,.sp-kural-note,.learning-workspace>p){color:#b0c4b8}
+html[data-theme=dark] :is(.kural-personal-progress,.kural-personal-progress strong){color:#acd9bd}
+html[data-theme=dark] :is(.stat-card,.coach){box-shadow:0 6px 18px #0002}
+html[data-theme=dark] :is(.pf-motto,.kural-mission-target){border-color:#526552}
+html[data-theme=dark] .quest-journey-progress{background:transparent}
+html[data-theme=dark] body:has(#legal){background:#111c23;color:#e5eee8;color-scheme:dark}
+html[data-theme=dark] #legal section{background:#1c2c2b;border-color:#41534a}
+html[data-theme=dark] #legal .draft{background:#382f24;border-color:#786145}
+html[data-theme=dark] #legal :is(a,small){color:#afd8c0}
+html[data-theme=dark] #legal button{background:#293e34;color:#e6efe9;border-color:#60745f}
+html[data-theme=dark] .va-world{background:linear-gradient(140deg,#243e33,#302f25);border-color:#47604a}
+html[data-theme=dark] :is(.va-world-copy p,.va-world-theme,.va-progress,.va-map-note,.vmap-label small,.pf-identity p,.pf-next-progress,.pf-next-progress strong,.pf-collection header p,.pf-links small,.pf-footer,.pf-badge-detail>span,.quest-chapter summary small){color:#b4c9bc}
+html[data-theme=dark] .pf-identity h2{color:var(--ink)}
+html[data-theme=dark] :is(.pf-badge-symbol,.pf-next-head .pf-badge-symbol,.pf-badge.earned .pf-badge-symbol,.pf-badge-detail button){background:#36503b;color:#c6dfb6;border-color:#587447;box-shadow:none}
+html[data-theme=dark] .va-stop.suggested{background:#3c3025;border-color:#ab7850}
+.appearance-card{padding:18px}.appearance-card p{margin:0 0 14px;color:var(--muted)}
+.appearance-choice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.appearance-choice button{display:grid;place-items:center;gap:6px;min-height:78px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);font:inherit;font-weight:800;font-size:13px}
+.appearance-choice button span{font-size:24px}.appearance-choice button[aria-pressed=true]{border-color:var(--orange);background:var(--orange-soft);color:var(--orange)}
+.appearance-choice button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+html[data-theme=dark]{--ink:#f0f3ee;--ink-2:#c6d3cf;--muted:#abbab6;--muted-2:#8a9e98;--green:#83caa5;--blue:#88c6e5;--violet:#c5ace4;--line:#35473f;--card:#1c2c2b;--white:#223431;--orange:#ff936b;--sp-green:#94d4b3;--sp-muted:#b0c3b9;--pf-green:#94d4b3;--pf-muted:#b0c3b9}
+html[data-theme=dark] :is(.quest-chapter,.va-quest,.va-stop,.va-route-link,.sp-card,.sp-learning-row,.kural-practice,.study-card,.learning-workspace,.learning-tile,.learning-match-tile,.learning-sort button,.learning-input,.learning-checklist button,.quest-play,.quest-models,.quest-memory button,.quest-memory-words button,.syllable-cell,.writing-picker,.writing-choose,.pronunciation-library,.kural-word-bank button,.kural-answer button){background:#1c2c2b;border-color:#354a43;color:var(--ink)}
+html[data-theme=dark] :is(.quest-hero,.va-mission,.pf-passport){background:linear-gradient(130deg,#352b27,#26332d);border-color:#5c4836;color:var(--ink)}
+html[data-theme=dark] :is(.sp-hero,.pf-next,.kural-mission,.quest-feedback,.learning-feedback,.learning-note,.learning-passage,.kural-answer){background:#203b32;border-color:#3b6551;color:#c2e2d0}
+html[data-theme=dark] :is(.sp-next,.kural-history,.va-final,.quest-help,.quest-instruction,.study-rule,.learning-hint,.kural-hint,.storage-notice){background:#342e24;border-color:#61523b;color:#ead8b8}
+html[data-theme=dark] :is(.quest-stop.is-current,.va-stop.is-suggested){background:#3c3025;border-color:#ab7850}
+html[data-theme=dark] :is(.quest-hero-signs>span,.quest-stop-number,.va-chapter>span,.va-quest-number,.sp-tag,.sp-symbol,.pf-portrait,.pf-seal,.va-mission-tags span,.va-game-strip span,.study-listen,.quest-audio-model,.quest-listen){background:#2c443b;border-color:#476350;color:#c3e3cc}
+html[data-theme=dark] :is(.quest-kicker,.quest-home-heading .eyebrow,.learning-kicker,.pf-label,.learning-text-button){color:#ffb18d}
+html[data-theme=dark] :is(.quest-chapter-summary small,.quest-journey-progress span,.va-quest small,.va-quest p,.va-stop small,.va-stop-score,.va-path-banner p,.va-route-link small,.va-sources,.va-exams,.sp-hero p,.sp-day,.sp-week-total,.sp-local-note,.sp-disclaimer,.pf-small-wins,.pf-motto,.pf-next p,.pf-passport p,.sp-next p,.learning-lead,.learning-topic,.learning-input-label,.learning-placeholder,.learning-kicker span,.kural-self-note){color:var(--muted)}
+html[data-theme=dark] :is(.sp-hero h2,.sp-week-total strong,.sp-detail-metrics strong,.pf-passport h2,.pf-next h2,.pf-small-wins b,.kural-mission h2,.kural-mission-target>span,.kural-mission-progress strong,.study-word strong,.study-word p,.study-more summary,.learning-cloze,.learning-sort-row>strong,.learning-feedback .learning-solution){color:var(--ink)}
+html[data-theme=dark] :is(.sp-bar-track,.quest-journey-progress,.learning-answer-zone,.study-more,.pf-links,.kural-practice-steps span){background:#263832;color:var(--ink-2);border-color:#476052}
+html[data-theme=dark] .learning-answer-zone .learning-tile{background:#30483d;color:var(--ink)}
+html[data-theme=dark] .page-levels .vmap-label{background:#1c2c2bf2;color:var(--ink);border-color:var(--line)}
+html[data-theme=dark] .village-memory button{background:#2c443b;border-color:#577361;color:#dbecdf}
+html[data-theme=dark] .village-memory button.is-open{background:#3b3828;border-color:#b19b66}
+html[data-theme=dark] :is(.village-memory button.is-found,.learning-tile.is-correct,.learning-match-tile.is-matched){background:#254e3a;border-color:#79bc92;color:#e2f9ea}
+html[data-theme=dark] :is(.village-memory button.is-wrong,.learning-feedback.is-wrong,.kural-feedback.is-wrong){background:#482e29;border-color:#d18a72;color:#ffcfb9}
+html[data-theme=dark] :is(.village-memory-note,.village-memory-note.is-wrong){color:var(--ink-2)}
+html[data-theme=dark] .lesson-feedback-sheet{background:#20352ff7;border-color:#4c695b;box-shadow:0 -10px 50px #0007}
+html[data-theme=dark] .lesson-feedback-sheet.is-wrong{background:#392e25fa}
+html[data-theme=dark] .lesson-feedback-sheet :is(.learning-feedback,.quest-feedback){background:transparent;color:var(--ink)}
+html[data-theme=dark] .lesson-feedback-layer{background:#0005}
+html[data-theme=dark] .va-stop-icon{--quest-icon-paper:#24382f;box-shadow:none}
+html[data-theme=dark] .va-icon-book{color:#ffd0a2;background:#493929;--quest-icon-fill:#765631}
+html[data-theme=dark] .va-icon-cards{color:#b1d1f2;background:#293c51;--quest-icon-fill:#4b6788}
+html[data-theme=dark] .va-icon-puzzle{color:#dcc0ef;background:#41354e;--quest-icon-fill:#745984}
+html[data-theme=dark] .va-icon-flag{color:#a8dec0;background:#294738;--quest-icon-fill:#4d7e5c}
+html[data-theme=dark] :is(.mascot-image,.learning-coach,.village-png){background:transparent;box-shadow:none}
+html[data-theme=dark] .bottom-nav{background:#132320f5;border-color:#3a5045;backdrop-filter:blur(18px)}
+html[data-theme=dark] :is(.primary,.nav-home-icon){color:#fff;background:linear-gradient(135deg,#e75e31,#c94e28)}
+html[data-theme=dark] :is(.choice-chip,.setting select){color:var(--ink);background:#263a32;border-color:#4a6053}
+html[data-theme=dark] .choice-chip.active{background:#523629;color:#ffba97;border-color:#ca875a}
+html[data-theme=dark] :is(.badge-card,.pf-badge){background:#24392f;border-color:#435e4c;color:var(--ink)}
+html[data-theme=dark] :is(.pf-badge small,.pf-badge p){color:var(--muted)}
+
+/* Model cards own their surface; instruction paragraphs are not callouts. */
+html[data-theme=dark] .quest-models{background:transparent;border:0}
+html[data-theme=dark] .quest-models article{background:#233a34;border-color:#425e52;color:#f0f3ee}
+html[data-theme=dark] .quest-models article>span{color:#c6d3cf}
+html[data-theme=dark] .quest-instruction{background:transparent;border:0;color:#c6d3cf;box-shadow:none}
+html[data-theme=dark] .quest-play{background:transparent}
+html[data-theme=dark] .quest-help{background:#1c2c2b;border:1px solid #425e52;border-radius:16px;padding:14px;color:#c6d3cf}
+/* Trim only the alpha fringe at display size, never recolour white buildings. */
+html[data-theme=dark] img.village-png{filter:url(#village-clean-edge)}

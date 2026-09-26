@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fff9f2" />
+  <meta name="description" content="Thimoli, l'application ludique et bienveillante pour apprendre le tamoul un peu chaque jour." />
+  <meta name="color-scheme" content="light" />
+  <script src="theme-init.js?v=20260923-dark"></script>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Thimoli" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Thimoli — Apprendre le tamoul</title>
+  <link rel="preload" href="assets/fonts/baloo-2-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/noto-sans-tamil.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/mascot/mascot-welcome.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="styles.css?v=20260923-quest-fix" />
+  <link rel="stylesheet" href="foundations.css?v=20260926-sister" />
+  <link rel="stylesheet" href="kural-practice.css?v=20260923-kural-practice" />
+  <link rel="stylesheet" href="learning.css?v=20260923-feedback-sheet" />
+  <link rel="stylesheet" href="village-adventure.css?v=20260923-quest-icons" />
+  <link rel="stylesheet" href="stats.css?v=20260923-stats" />
+  <link rel="stylesheet" href="profile.css?v=20260923-v1-check" />
+  <link rel="stylesheet" href="dark-mode.css?v=20260924-dark-fixes" />
+  <link rel="stylesheet" href="connectivity.css?v=20260924" />
+  <link rel="stylesheet" href="vocabulary-visuals.css?v=20260926-sister" />
+  <link rel="stylesheet" href="sister-feedback.css?v=20260926-sister" />
+  <link rel="stylesheet" href="alphabet-review.css?v=20260926-sister" />
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;pointer-events:none"><defs><filter id="village-clean-edge" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="erode" radius="0.8" result="trimmed"/><feGaussianBlur in="trimmed" stdDeviation="0.2" result="softEdge"/><feComposite in="SourceGraphic" in2="softEdge" operator="in"/></filter></defs></svg>
+  <noscript><p>Thimoli a besoin de JavaScript pour ses exercices. / Please enable JavaScript. / Bitte aktiviere JavaScript.</p></noscript>
+  <main id="app" class="phone-shell" aria-live="polite"></main>
+  <audio id="tamil-audio" preload="none" playsinline hidden data-status="idle"></audio>
+  <script src="release-config.js?v=20260923-release"></script>
+  <script src="boot-guard.js?v=20260923-release"></script>
+  <script src="connectivity.js?v=20260924"></script>
+  <script src="assets/audio/alphabet-index.js?v=20260923-au-sri-lanka"></script>
+  <!-- Private local prototype only: do not publish these Free-plan recordings commercially. -->
+  <script src="assets/audio/pedagogical-index.js?v=20260923-nila-local-1"></script>
+  <script src="assets/audio/speech-index.js?v=20260923-quest-fix"></script>
+  <script src="curriculum.js?v=20260926-sister"></script>
+  <script src="learning-engine.js?v=20260924-pedagogy"></script>
+  <script src="learning-ui.js?v=20260926-sister"></script>
+  <script src="vocabulary-visuals.js?v=20260926-sister"></script>
+  <script src="foundations.js?v=20260926-sister"></script>
+  <script src="alphabet-review.js?v=20260926-sister"></script>
+  <script src="kural-practice.js?v=20260923-kural-practice"></script>
+  <script src="village-adventure.js?v=20260923-exercise-languages"></script>
+  <script src="i18n-updates.js?v=20260923-audit"></script>
+  <script src="i18n-exercises.js?v=20260926-sister"></script>
+  <script src="app.js?v=20260926-sister"></script>
+</body>
+</html>

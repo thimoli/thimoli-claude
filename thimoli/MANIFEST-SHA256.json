@@ -1,0 +1,466 @@
+{
+  "version": "2026-09-26-sister",
+  "generatedAt": "2026-09-26T21:48:37.0049489Z",
+  "entryGuide": "CLAUDE_VERSION_LEGERE.md",
+  "purpose": "Private project handoff; not a commercial publication",
+  "binaryMediaIncluded": false,
+  "excluded": [
+    "dist",
+    "site-deploy",
+    ".git",
+    ".openai",
+    "output",
+    "tmp",
+    "logs",
+    "historical presentation assets",
+    "old CLAUDE guides",
+    "binary images, fonts and audio (retain originals in the complete project)"
+  ],
+  "files": [
+    {
+      "path": "alphabet-review.css",
+      "bytes": 3636,
+      "sha256": "e93cc45a3d40f89068b5634d7533ccbc3f26e276cea7a39694318bdea815b9e1"
+    },
+    {
+      "path": "alphabet-review.js",
+      "bytes": 9472,
+      "sha256": "d6821b5d984b676659465c3f6b2cae78532c7d9170f6775ca3a62e7b239023b6"
+    },
+    {
+      "path": "app.js",
+      "bytes": 232034,
+      "sha256": "a87c3de327daeaa4d27cfe4077836952b5eca16c94c7e26d8f2c270a12162fb0"
+    },
+    {
+      "path": "assets/audio/alphabet-index.js",
+      "bytes": 14684,
+      "sha256": "14b2c496ae5a51239c7fbe596acba8c648bdfc339ce41895b771b8d08990a547"
+    },
+    {
+      "path": "assets/audio/alphabet/README.md",
+      "bytes": 716,
+      "sha256": "86a6760dadf98883c0d84ee4df2d53ed8fb776157393c67616d4fab70cb80b02"
+    },
+    {
+      "path": "assets/audio/manifest.json",
+      "bytes": 296699,
+      "sha256": "8f4e49cbf7416c5219376989dd925213ec50d0de05e765c21f29cf6ffa686cd8"
+    },
+    {
+      "path": "assets/audio/pedagogical-index.js",
+      "bytes": 12202,
+      "sha256": "faaa93f8c199a3c8c41254f01c7d7724a10604da8355fdfa832c44115e0dc94f"
+    },
+    {
+      "path": "assets/audio/speech-index.js",
+      "bytes": 31068,
+      "sha256": "35e72dcb8ec0eb001db585f2bc47a096e061f2ff587a6c6be009fd380eded849"
+    },
+    {
+      "path": "assets/data/thirukkural-chapters.txt",
+      "bytes": 4583,
+      "sha256": "96ad389e0b1c04ac38e6ac6a5ddbd559a47a6c3d42b47ace4adc3af3a2af036e"
+    },
+    {
+      "path": "assets/data/thirukkural.txt",
+      "bytes": 223652,
+      "sha256": "d52960e4c758e16953ba9bd4a66cccb91fbdef7f5c7e9f748b61744836c88cdd"
+    },
+    {
+      "path": "assets/fonts/LICENSE-Baloo-2.txt",
+      "bytes": 4384,
+      "sha256": "ad09b05dc8bc678c9daf7c4c5f7ef1f55e5726127f4330b2e98e40b9dffcb860"
+    },
+    {
+      "path": "assets/fonts/LICENSE-Noto-Sans-Tamil.txt",
+      "bytes": 4381,
+      "sha256": "f8ff8ce7d0a81bf8d5e121c635ef027250c531f2fd37d5988b8dd6e45f19d7f1"
+    },
+    {
+      "path": "assets/fonts/LICENSE-Nunito.txt",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "assets/mascot/PROMPTS.md",
+      "bytes": 2187,
+      "sha256": "f1b676c81017e2609b1f8030e54555970093d19454e7c0b7ad3453f9e86042f4"
+    },
+    {
+      "path": "AUDIT_V1_LANGUES_ET_CONFORMITE.md",
+      "bytes": 5780,
+      "sha256": "9c8cc1deccd254a20c01712bbf0549473f2c758a5c3209fd6887a613a8cddb11"
+    },
+    {
+      "path": "boot-guard.js",
+      "bytes": 1478,
+      "sha256": "6fb4b6972df5b495b3944c8cc9c4a11246f2a132a3120df089d4ffa4aa55fca6"
+    },
+    {
+      "path": "CLAUDE_VERSION_LEGERE.md",
+      "bytes": 4578,
+      "sha256": "40f776483ccb13b45c82f27813fe02091559b412809373afe41228e214788b0f"
+    },
+    {
+      "path": "connectivity.css",
+      "bytes": 466,
+      "sha256": "fe09122cdfee5c382ee412c7b7e79adaf38b4044e38f4165d2eed04843493579"
+    },
+    {
+      "path": "connectivity.js",
+      "bytes": 1211,
+      "sha256": "24a07bf28bae777b0ee7110947a5f97213c7d6e9efb841ab791ac5c46df89f0a"
+    },
+    {
+      "path": "curriculum.js",
+      "bytes": 34009,
+      "sha256": "8bf2203e49f10f826aaafa075d6724479421e62b699fb697254edb6a47655dfc"
+    },
+    {
+      "path": "dark-mode.css",
+      "bytes": 8306,
+      "sha256": "664e8a764d723edbfada9bc423933deb1ab5f7413c87b35d849aa3fe2fc90b66"
+    },
+    {
+      "path": "ETAT_ACTUEL.md",
+      "bytes": 11256,
+      "sha256": "e525b8a72595bf13af5b436f3ef55d7df291fa4ded2c86943a5b2f3d2b46e851"
+    },
+    {
+      "path": "FIABILITE_2026-09-24.md",
+      "bytes": 1214,
+      "sha256": "0afccac23f18e9c13ecc3c6e5d6950e511683f3d7e4ab5c4c891a8721cc6bee9"
+    },
+    {
+      "path": "foundations.css",
+      "bytes": 13704,
+      "sha256": "a3f714be52387d4e6d685adc2bea1e572db4c2822ecb33ff2a8cb4926dd61172"
+    },
+    {
+      "path": "foundations.js",
+      "bytes": 24512,
+      "sha256": "4268525f0cfd9e52f3d2473d98d46ed81f71d625a9f80dbd54d8588f5e174cd2"
+    },
+    {
+      "path": "i18n-exercises.js",
+      "bytes": 62950,
+      "sha256": "445060daee2dde83711f67d43db20ac41b14cd15b633d2db26e2a830973b2f5a"
+    },
+    {
+      "path": "i18n-updates.js",
+      "bytes": 12038,
+      "sha256": "e20e0fdfd9862e6b0a61d2c6370dffa7a5f6a78b19f5b12118570d9688264c22"
+    },
+    {
+      "path": "index.html",
+      "bytes": 4016,
+      "sha256": "87dbca5c6c8d58ed03c7f79c5242da8cb7371880f9e398a49baf8acc899a14ee"
+    },
+    {
+      "path": "kural-practice.css",
+      "bytes": 7264,
+      "sha256": "b4c5b595debcd17ad672b6f89348dfd976d22b5f326f12e88ea4d17dffc08dc8"
+    },
+    {
+      "path": "kural-practice.js",
+      "bytes": 8880,
+      "sha256": "1d2ff39012fc15e38da3f9e49dcd4c21552fbd42524a1f8b048d4e32cb215706"
+    },
+    {
+      "path": "learning-engine.js",
+      "bytes": 31059,
+      "sha256": "095e812494b4921e7185b685621a204cf5a2c4212c5954fe87f549bd0eb2ffc4"
+    },
+    {
+      "path": "learning-ui.js",
+      "bytes": 20546,
+      "sha256": "4e464d3e21875a46876bfad8e90eae5272e8051d68e639ddef18d8d24aca3ec5"
+    },
+    {
+      "path": "learning.css",
+      "bytes": 11060,
+      "sha256": "da17a035979c8c9704d9251ca9c2e94fa2251d5e68d3adf511ef9da218a8a6f4"
+    },
+    {
+      "path": "legal.css",
+      "bytes": 990,
+      "sha256": "6773c9a2c8e3851df065ab8f8b61ad7271102f4ed63c4c94e2c360143c14d294"
+    },
+    {
+      "path": "legal.html",
+      "bytes": 729,
+      "sha256": "7fb6ee92b55c4bb963e855f4566145f4805677870cb180fe7f1ac379582288f6"
+    },
+    {
+      "path": "legal.js",
+      "bytes": 20944,
+      "sha256": "3f4d2bba30c5c176b2b46a9b3cd143b946c4b3699f2c739e3f8714112dfbb26c"
+    },
+    {
+      "path": "MODE_SOMBRE.md",
+      "bytes": 1655,
+      "sha256": "5873b4b421530a431d4336f988204fe1dbf612a6d8d27ffd7eef5f070242eeeb"
+    },
+    {
+      "path": "PEDAGOGIE_VALAR.md",
+      "bytes": 6225,
+      "sha256": "1187eff49525b778bb67aba51215f8b18772f9adc52a728ac1f24f015da918b9"
+    },
+    {
+      "path": "PREPARATION_PUBLICATION.md",
+      "bytes": 4910,
+      "sha256": "a2c5baa33c1fd7ed90e1b387105a78bf141a74266c310ec4db675374db80de9e"
+    },
+    {
+      "path": "profile.css",
+      "bytes": 6371,
+      "sha256": "3b4cb0ba04819106ed7ca2bda5a59afec8db6a407418fb499c3a464f5952b1bc"
+    },
+    {
+      "path": "PRONONCIATION_AUDIT.md",
+      "bytes": 5288,
+      "sha256": "83f07f5eb47498c9e3a7d267336a57adad7b69941af8041ebc2dc9cb79f7b508"
+    },
+    {
+      "path": "QUESTS_HANDOFF.md",
+      "bytes": 3288,
+      "sha256": "9d5d6f0aecdb0244aabff3f9f56c9b3e70f395f422b72d9a93dabd019d58f08f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2678,
+      "sha256": "d055e03ce6038078f2b08af70b27257c64ae6ae5fcd521aa9040935eb6b65102"
+    },
+    {
+      "path": "RECETTE_LANGUES_MOBILE.md",
+      "bytes": 3595,
+      "sha256": "7ab0f24c63dd88a024bfc80275d00e240d0a4f3d3f9d946f6d6f482cc2f846d3"
+    },
+    {
+      "path": "release-config.js",
+      "bytes": 157,
+      "sha256": "c38d9a3254b538e40ad2bac70b1bac8dabcb79e607578cdd98e0f5dcf2683697"
+    },
+    {
+      "path": "release-readiness.json",
+      "bytes": 350,
+      "sha256": "773a40004ad8b3fb08e3dcef496563d7be23bf7fb9ae9cfe6680306ae3466a2b"
+    },
+    {
+      "path": "RETOURS_TEST_UTILISATEUR.md",
+      "bytes": 3128,
+      "sha256": "fbadf7e564168fc7094a217652d3ab0461aa0b48f82b49ccd023d79e1ff0a213"
+    },
+    {
+      "path": "REVUE_PEDAGOGIQUE_BASES.md",
+      "bytes": 3796,
+      "sha256": "84cf6d33f4f1c203f64459b19161d3b3100431c9ff594cdc1b716314887bf442"
+    },
+    {
+      "path": "scripts/audit-localization.cjs",
+      "bytes": 1887,
+      "sha256": "626fd1f56003978d42e44a5d62a258488c6f42c93d86bb4f5664efbfbd5781b0"
+    },
+    {
+      "path": "scripts/audit-pronunciation.js",
+      "bytes": 1217,
+      "sha256": "06a8d3b95ff74b62b9fb1a0d5d97094c2df12db4fa744d7ba8be602d5fd18013"
+    },
+    {
+      "path": "scripts/build-release.cjs",
+      "bytes": 2538,
+      "sha256": "b5891b55fd4266462cf449519020c772222d6dcb8d76d6ccab5e159b159efe93"
+    },
+    {
+      "path": "scripts/check-letter-contrasts.py",
+      "bytes": 7014,
+      "sha256": "4905fb6f95530d6a495c65a1217e0ff39628703e42637041f581632d9b6fa26e"
+    },
+    {
+      "path": "scripts/check-private-syllables.cjs",
+      "bytes": 1468,
+      "sha256": "61350f4f07c92db7b9e2e489d13030b3b685e9b63cd276c22002ff6de681b1db"
+    },
+    {
+      "path": "scripts/check-release.cjs",
+      "bytes": 1079,
+      "sha256": "4b32e32d8e4d6d57718e1151a8c7408769607a7ea4960fe4da3588be868c4cb6"
+    },
+    {
+      "path": "scripts/export-claude.ps1",
+      "bytes": 5914,
+      "sha256": "f9f407ce4304d13ad2f2be6e08b059e3f083a4a7939e1d67d4f873c3b6db30ac"
+    },
+    {
+      "path": "scripts/generate-natural-audio.py",
+      "bytes": 3882,
+      "sha256": "e536c06ee84d9af83b89ca6d23cae491f38b48b74364e980ef889ae68a0525c2"
+    },
+    {
+      "path": "scripts/pilot-sri-lanka-audio.py",
+      "bytes": 1737,
+      "sha256": "a3f05b9233dd20394b70fc716ebd94087a68f753aac515a9edf67111e5be50c9"
+    },
+    {
+      "path": "scripts/prepare-private-syllables.cjs",
+      "bytes": 1815,
+      "sha256": "0e399b600d195cb7acf3e5079104cd31f6d19a0ff19ad60525b7a19b4e6f9039"
+    },
+    {
+      "path": "scripts/review-letter-audio.py",
+      "bytes": 6060,
+      "sha256": "148ea2c54c973bb260d1b0e95cb4788f19d1c5a187afe75ba7ba133fbe304581"
+    },
+    {
+      "path": "scripts/run-preview-tunnel.ps1",
+      "bytes": 397,
+      "sha256": "1539b0456071656eee7072897acfc833be1222e5489cbfb91ea7bd34fa278d11"
+    },
+    {
+      "path": "scripts/smoke-curriculum.js",
+      "bytes": 21504,
+      "sha256": "fd964976ad7f4f725bdc05f2e47552513196b55090534d05c30ea89e027ee5c1"
+    },
+    {
+      "path": "scripts/test-alphabet-review.cjs",
+      "bytes": 7280,
+      "sha256": "625065b545591701e0e32d5d303d4d79d95146e0455332ac47c301eb2485af8e"
+    },
+    {
+      "path": "scripts/test-audio.js",
+      "bytes": 3843,
+      "sha256": "924508b4049f9f39477e6f28db4e5d5831ce86d7a50919938db1096b07e9fb54"
+    },
+    {
+      "path": "scripts/test-boot.cjs",
+      "bytes": 1002,
+      "sha256": "aa6352db87cfed764b5595d1dcc17b289e72186e8e657cea6f070b120dcb3223"
+    },
+    {
+      "path": "scripts/test-connectivity.cjs",
+      "bytes": 1048,
+      "sha256": "f4accad074e7b6c36d32df1fe8f8c97ea7d729dc00273af97f5587de0c350c84"
+    },
+    {
+      "path": "scripts/test-exercise-i18n.cjs",
+      "bytes": 2871,
+      "sha256": "8749447c7cdbd7b0dc2aacccbf02de428e1863f3ebdd417f0f6a2b806d5e2ce8"
+    },
+    {
+      "path": "scripts/test-foundation-flow.cjs",
+      "bytes": 1514,
+      "sha256": "690fcd6e980d509f4729f532649c2e9779a50caa8da8807a99b0113cb4860f42"
+    },
+    {
+      "path": "scripts/test-kural-practice.js",
+      "bytes": 2831,
+      "sha256": "bd423d45a207c3439626cd1af2405f392f4376465c5623524ed4a4bb8d56a342"
+    },
+    {
+      "path": "scripts/test-learning.js",
+      "bytes": 4249,
+      "sha256": "2048744fe9cb62d36c4d52a63704998bddfa8f02e02e574be66c2d6cb76479fb"
+    },
+    {
+      "path": "scripts/test-legal.cjs",
+      "bytes": 1293,
+      "sha256": "71faf174b282160d8f0553120b2a4e0c886fba218eea3d3dbe57f63e515622d6"
+    },
+    {
+      "path": "scripts/test-next-stage.cjs",
+      "bytes": 7512,
+      "sha256": "f461e73471d66eb4550e5fbf2761e342711f4e7dbcd2303c74a09f3d20fcf009"
+    },
+    {
+      "path": "scripts/test-pedagogical-audio.cjs",
+      "bytes": 1390,
+      "sha256": "fffca0ba3de7ff881d66f6daaf0c1ddc3746182166fd95ad9276f17b8bfca435"
+    },
+    {
+      "path": "scripts/test-pedagogy-foundations.cjs",
+      "bytes": 2407,
+      "sha256": "b5285424bfde33957fa52b1b6b93938e240225168b6a14818a0423b9677dd421"
+    },
+    {
+      "path": "scripts/test-release.cjs",
+      "bytes": 1539,
+      "sha256": "6da1f7801c294ec7a461b1fd216b80664532a96e76456396514c2f511b4939eb"
+    },
+    {
+      "path": "scripts/test-sister-feedback.cjs",
+      "bytes": 7625,
+      "sha256": "abe481114d26c07bedf984f7da2c4f35eb30ff397bf7880efc8ed3c98bcfa34b"
+    },
+    {
+      "path": "scripts/test-static-package.cjs",
+      "bytes": 1217,
+      "sha256": "b09d7104abcab0109ca35873bc597c71ccb436db21f49c6d4eefd2fe390f537f"
+    },
+    {
+      "path": "scripts/test-storage.js",
+      "bytes": 1225,
+      "sha256": "c3e4c7828c3c9be65eb6b581a74112753388140ffaaaa8349f72acfa98e9b709"
+    },
+    {
+      "path": "scripts/test-theme.cjs",
+      "bytes": 954,
+      "sha256": "f43e4dfaf23aaac2693d019f96e4964b3f778ee97339786e3a316e84ad887629"
+    },
+    {
+      "path": "scripts/test-vocabulary-visuals.cjs",
+      "bytes": 5029,
+      "sha256": "fe67b6a013e57e651d73cd2273246dd294f197dfc50bbe9b7d5b2d357d6992fa"
+    },
+    {
+      "path": "sister-feedback.css",
+      "bytes": 5557,
+      "sha256": "b9063ed5ecf3c85f6d2030680e56e14a2a930045907db78671f4c0c176561958"
+    },
+    {
+      "path": "stats.css",
+      "bytes": 4688,
+      "sha256": "efe4d0f230648fb38a7cacd0f0bb3edf84272f11f85a9aeac28908fdbc387f67"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 190878,
+      "sha256": "df866bb5d6caacc878b37a92fc17343acaf24d11b59902033a7083244f7cee06"
+    },
+    {
+      "path": "theme-init.js",
+      "bytes": 962,
+      "sha256": "cbe6456257271f5bf8f8c1368a87dedae9f57ed1a899bc0025811de168e6c767"
+    },
+    {
+      "path": "THIMOLI_DESIGN.md",
+      "bytes": 3553,
+      "sha256": "a72a9a5917961e0c70c9e6d4e9cf294cdd5af5bb3558975cbc4530f6da09e35e"
+    },
+    {
+      "path": "tools/extract_villages.py",
+      "bytes": 3782,
+      "sha256": "8287b10200752a936e8cf5d3edde0ead2bc844779c98d3977f8a3a5aaba3c83a"
+    },
+    {
+      "path": "village-adventure.css",
+      "bytes": 8407,
+      "sha256": "6b29ff9052748940dd70ca27fe53449e038066175debd344464e5713be8ec7c0"
+    },
+    {
+      "path": "village-adventure.js",
+      "bytes": 11008,
+      "sha256": "15e76dcb033552a93faff5d2096ce65f4d0e935ca380251b4e0dc4b11ecf5b99"
+    },
+    {
+      "path": "vocabulary-visuals.css",
+      "bytes": 3393,
+      "sha256": "e0f463da59a022e1f2407ce933dd2e7036db63c9618a72853822b73d903f2dec"
+    },
+    {
+      "path": "vocabulary-visuals.js",
+      "bytes": 13596,
+      "sha256": "733c82a1d05bffb9e69fd5aaa634973d1c11d3ce80fe0ca0f5baa31b186eebf9"
+    }
+  ]
+}

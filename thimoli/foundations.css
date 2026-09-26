@@ -1,0 +1,136 @@
+/* Thimoli's level-zero adventure, sharing the established palette and type. */
+.quest-models.quest-models-visual article{grid-template-columns:64px minmax(0,1fr) 44px;gap:8px 12px}
+.quest-models-visual .quest-model-picture{grid-column:1;grid-row:1/3;width:64px;height:64px}
+.quest-models.quest-models-visual article>strong{grid-column:2;grid-row:1;font-size:1.2rem;text-align:left;line-height:1.9}
+.quest-models-visual article>span{grid-column:2;grid-row:2}
+.quest-models-visual article>button{grid-column:3;grid-row:1/3}
+.quest-finish>.secondary{width:100%;margin:12px 0;min-height:48px}
+.quest-home-heading { margin: 20px 0 14px; }
+.quest-home-heading h1 { margin: 5px 0; font: 800 1.9rem/1.15 var(--font-display); }
+.quest-home-heading .eyebrow, .quest-kicker { font-size: .75rem; color: #a54324; font-weight: 900; letter-spacing: .055em; }
+.quest-hero { position: relative; display: grid; grid-template-columns: minmax(0,1fr) 82px; gap: 12px 4px; padding: 22px 18px 16px; border: 1px solid #f4caa9; border-radius: 28px; background: linear-gradient(130deg,#fff0d9,#fff8ec 55%,#fbe6d7); box-shadow: 0 12px 25px #b15e2810; }
+.quest-kicker span { color: var(--ink-2); letter-spacing: 0; }
+.quest-hero h2 { margin: 8px 0 12px; font: 800 1.6rem/1.12 var(--font-display); }
+.quest-hero-copy { min-width: 0; }
+.quest-hero-copy p { margin: 12px 0 0; font-size: .875rem; line-height: 1.4; color: var(--ink-2); }
+.quest-hero-mascot { align-self: center; width: 90px; max-width: 100%; height: 145px; object-fit: contain; filter: drop-shadow(0 8px 8px #734c2320); }
+.quest-hero-signs { display: flex; flex-wrap: wrap; gap: 6px; font-family: var(--font-tamil); }
+.quest-hero-signs > span { display: inline-flex; min-width: 52px; min-height: 54px; align-items: center; justify-content: center; padding: 5px 8px; background: #fffaf4; border: 1px solid #ecd7bf; border-radius: 14px; color: var(--ink); font-size: 1.35rem; line-height: 1.7; white-space: nowrap; }
+.quest-hero > .primary { grid-column: 1/-1; margin: 2px 0 0; min-height: 52px; font-size: 1.125rem; }
+.quest-journey-progress { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin: 20px 2px; font-size: .875rem; color: var(--ink-2); }
+.quest-journey-progress > span { color: #8b6619; font-weight: 900; }
+.quest-journey-progress .bar { grid-column: 1/-1; margin: 0; height: 7px; }
+.quest-journey-progress .bar span { background: var(--green); }
+.quest-chapters { display: grid; gap: 12px; }
+.quest-chapter { border: 1px solid #e0e9e1; border-radius: 22px; background: #fcfefb; overflow: hidden; }
+.quest-chapter:nth-child(2) { border-color: #dce6ed; background: #fafdff; }
+.quest-chapter:nth-child(3) { border-color: #e7dff0; background: #fdfbff; }
+.quest-chapter summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px; cursor: pointer; list-style: none; }
+.quest-chapter summary::-webkit-details-marker, .quest-library summary::-webkit-details-marker { display: none; }
+.quest-chapter summary > span { display: grid; gap: 4px; }
+.quest-chapter summary small { font-size: .75rem; color: #467d60; font-weight: 900; }
+.quest-chapter summary strong { font: 800 1.125rem/1.2 var(--font-display); }
+.quest-chapter summary > b { font-size: 1.4rem; }
+.quest-chapter[open] summary > b { transform: rotate(45deg); }
+.quest-chapter ol { list-style: none; padding: 0 12px 12px; margin: 0; }
+.quest-chapter li + li { margin-top: 6px; }
+.quest-stop { display: grid; grid-template-columns: 38px minmax(0,1fr) 16px; align-items: center; width: 100%; gap: 10px; padding: 13px 8px; border: 1px solid transparent; border-radius: 15px; background: transparent; text-align: left; color: var(--ink); cursor: pointer; }
+.quest-stop > span:nth-child(2) { display: grid; gap: 4px; }
+.quest-stop strong { font-size: .9375rem; line-height: 1.3; }
+.quest-stop small { font-size: .75rem; color: var(--ink-2); line-height: 1.4; }
+.quest-stop-number { display: grid; place-items: center; width: 38px; height: 42px; border-radius: 13px; background: #e8eee8; color: #536355; font-weight: 900; }
+.quest-stop.is-current { border-color: #f4c6ae; background: #fff6ee; }
+.quest-stop.is-current .quest-stop-number { background: var(--orange); color: white; box-shadow: 0 4px 0 #dc5327; }
+.quest-stop.is-complete .quest-stop-number { background: var(--green-soft); color: #267c51; }
+.quest-stop:disabled { opacity: .65; cursor: default; }
+.quest-library { margin: 22px 0 0; border-top: 1px solid var(--line); }
+.quest-library summary { display: grid; gap: 4px; padding: 18px 4px; cursor: pointer; list-style: none; }
+.quest-library summary > span { font-size: 1rem; font-weight: 900; }
+.quest-library summary small { font-size: .8125rem; color: var(--ink-2); }
+.quest-library > div { display: grid; }
+.quest-library button { display: flex; justify-content: space-between; padding: 16px 8px; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--ink); text-align: left; font-size: 1rem; cursor: pointer; }
+.quest-play-head { display: grid; grid-template-columns: 44px 1fr auto; gap: 14px; align-items: center; margin: 12px 0 26px; }
+.quest-play-head .icon-button { width: 44px; height: 44px; }
+.quest-play-head .bar { margin: 0; }
+.quest-play-head > span { font-size: .875rem; font-weight: 900; }
+.quest-play > h1 { margin: 8px 0 12px; font: 800 1.9rem/1.2 var(--font-display); }
+.quest-play > .eyebrow { font-size: .75rem; }
+.quest-instruction { margin: 0 0 22px; font-size: 1rem; line-height: 1.5; color: var(--ink-2); }
+.quest-models { display: grid; gap: 10px; margin-bottom: 24px; }
+.quest-models article { display: grid; grid-template-columns: minmax(60px,.7fr) 1fr 44px; gap: 12px; align-items: center; padding: 18px 12px; background: #fff; border: 1px solid var(--line); border-radius: 22px; }
+.quest-models article > strong { font: 700 1.5rem/1.6 var(--font-tamil); overflow-wrap: anywhere; text-align: center; }
+.quest-models article > span { font-size: .875rem; color: var(--ink-2); }
+.quest-models button { display: grid; width: 44px; height: 44px; place-items: center; border: 0; border-radius: 50%; background: var(--blue-soft); color: var(--blue); cursor: pointer; }
+.quest-models .sound-svg, .quest-listen .sound-svg { width: 24px; height: 24px; }
+.quest-memory { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.quest-memory button { min-width: 0; min-height: 96px; padding: 9px; border: 1px solid #ead1b2; border-bottom-width: 4px; border-radius: 18px; background: #fff3df; color: #ad6a39; cursor: pointer; }
+.quest-memory button > span { font-size: 1.65rem; line-height: 1.7; white-space: nowrap; }
+.quest-memory .is-revealed { background: white; color: var(--ink); border-color: #cddde6; }
+.quest-memory .is-paired { background: var(--green-soft); color: #267c51; border-color: #a6d4b6; opacity: 1; }
+.quest-memory .is-wrong { background: #fff0ec; color: #b84232; border-color: #e36f61; animation: quest-wrong-shake .28s ease-in-out 2; }
+.quest-memory-count { text-align: center; font-size: .875rem; color: var(--ink-2); margin: 18px 0 0; }
+.quest-memory-count.is-wrong { color: #a73c30; font-weight: 800; }
+.quest-memory-words { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.quest-memory + .secondary { width: 100%; margin-top: 12px; font-size: .875rem; }
+.quest-listen { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; min-height: 64px; margin: 0 0 18px; border: 1px solid #bddbec; border-radius: 20px; background: var(--blue-soft); color: var(--ink); font-size: 1rem; font-weight: 800; cursor: pointer; }
+.quest-feedback { display: grid; grid-template-columns: 56px minmax(0,1fr); gap: 12px; margin: 18px 0; padding: 14px; border-radius: 20px; background: var(--green-soft); }
+.quest-feedback.wrong { background: #fff0de; }
+.quest-feedback img { width: 56px; height: 70px; object-fit: contain; }
+.quest-feedback strong { font-size: 1rem; }
+.quest-feedback p { margin: 5px 0 0; font-size: .875rem; line-height: 1.5; }
+.quest-help { margin-top: 22px; color: var(--ink-2); font-size: .875rem; }
+.quest-help summary { padding: 12px 0; cursor: pointer; }
+.quest-help p { margin: 10px 0; }
+.quest-help [lang="ta"] { font-size: 1.25rem; line-height: 1.6; }
+.quest-finish { text-align: center; }
+.quest-finish-mascot { display: block; width: 140px; height: 180px; object-fit: contain; margin: 20px auto; }
+.quest-stars { margin: 16px 0; color: #b68018; font-size: 2.4rem; letter-spacing: .08em; }
+.quest-reward { font-size: 1.25rem; font-weight: 900; color: #2c865b; }
+.quest-play .primary { font-size: 1.05rem; }
+
+/* Generous native-script cells, never Latin-sized boxes. */
+.page-alphabet .alphabet-grid-clean, .page-alphabet .syllable-grid, .writing-picker, .pronunciation-letter-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.page-alphabet .alphabet-grid-clean button, .page-alphabet .syllable-cell, .writing-picker button, .pronunciation-letter-grid button { min-width: 0; min-height: 82px; padding: 12px 8px; border: 1px solid var(--line); border-radius: 17px; background: white; color: var(--ink); }
+.page-alphabet .alphabet-grid-clean button strong, .page-alphabet .syllable-cell strong, .writing-picker strong, .pronunciation-letter-grid strong { display: block; font: 700 1.45rem/1.7 var(--font-tamil); white-space: nowrap; }
+.page-alphabet .alphabet-focus { grid-template-columns: minmax(112px,.8fr) minmax(0,1fr); }
+.page-alphabet .alphabet-focus-letter span { font-size: 2.5rem; line-height: 1.7; white-space: nowrap; }
+.page-practice .practice-head { grid-template-columns: 44px minmax(0,1fr); gap: 10px; align-items: start; }
+.page-practice .practice-head .icon-button { width: 44px; height: 44px; }
+.page-practice .practice-head > div { min-width: 0; }
+.page-practice .practice-head h1 { font-size: 1.65rem; line-height: 1.2; }
+.page-practice .practice-head p { font-size: .875rem; line-height: 1.5; }
+.page-practice .practice-head .eyebrow { font-size: .75rem; }
+.page-practice .practice-progress { grid-column: 2; justify-self: start; font-size: .75rem; }
+.page-practice .practice-tip { font-size: .875rem; line-height: 1.5; }
+.page-practice .alphabet-focus-letter small, .page-practice .alphabet-focus p { font-size: .875rem; line-height: 1.5; }
+.page-alphabet .practice-tabs button { font-size: .875rem; min-height: 54px; padding: 9px 4px; }
+.page-alphabet .syllable-cell small { font-size: .875rem; }
+.writing-choose { margin: 12px 0 20px; }
+.writing-choose summary { padding: 15px; border-radius: 16px; background: var(--green-soft); color: var(--ink); cursor: pointer; font-size: 1rem; font-weight: 800; }
+.writing-picker { margin-top: 12px; max-height: 310px; overflow-y: auto; padding: 4px; }
+.writing-picker button { cursor: pointer; }
+.writing-picker button.active { border: 2px solid var(--green); background: var(--green-soft); }
+.writing-family-select { display: grid; gap: 8px; margin: 14px 0; font-size: .875rem; }
+.writing-family-select select { width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: white; font: 1rem var(--font-tamil); color: var(--ink); }
+.page-writing .writing-level-strip button { min-width: 92px; }
+.page-writing .writing-level-strip button span { font-size: .8125rem; line-height: 1.3; }
+.page-writing .writing-level-strip button strong { font-size: 1rem; }
+.writing-practice-note { font-size: .875rem; color: var(--ink-2); line-height: 1.5; }
+.writing-next { width: 100%; margin-top: 14px; }
+.page-writing .writing-letter-nav > span { max-width: 100%; overflow-wrap: anywhere; line-height: 1.6; }
+.pronunciation-library { margin-top: 24px; }
+.pronunciation-library summary { padding: 15px 0; font-size: 1rem; font-weight: 900; cursor: pointer; }
+.pronunciation-letter-grid button { cursor: pointer; }
+.pronunciation-letter-grid small { display: block; font-size: .875rem; color: var(--ink-2); }
+.audio-notice { position: fixed; z-index: 60; bottom: calc(var(--nav-height) + var(--safe-bottom) + 12px); left: 50%; transform: translateX(-50%); width: min(380px,calc(100% - 32px)); padding: 14px 16px; border: 1px solid #f0cca7; border-radius: 16px; background: #fff7e9; color: var(--ink); font-size: .875rem; line-height: 1.5; box-shadow: var(--shadow-md); }
+.audio-notice:empty { display: none; }
+.audio-is-active { outline: 3px solid var(--green) !important; outline-offset: 2px; background-color: var(--green-soft) !important; }
+[data-speak][aria-busy="true"] { cursor: progress; }
+.quest-audio-model { display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+.quest-audio-model p { min-width: 0; }
+.quest-audio-model button, .letter-speaker { flex: 0 0 44px; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 50%; background: #fff; color: var(--ink); display: inline-grid; place-items: center; cursor: pointer; }
+.quest-audio-model button svg, .letter-speaker svg { width: 20px; height: 20px; }
+.quest-play button:focus-visible, .quest-chapter button:focus-visible, .quest-library button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+@media (max-width: 360px) { .quest-hero { grid-template-columns: minmax(0,1fr) 62px; padding: 18px 14px; } .quest-hero-mascot { height: 120px; } .quest-hero-signs > span { min-width: 42px; padding: 4px; font-size: 1.1rem; } .quest-memory { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (prefers-reduced-motion: reduce) { .quest-play *, .page-foundation-quests * { scroll-behavior: auto; transition: none !important; } }
+@keyframes quest-wrong-shake { 0%,100% { transform: translateX(0); } 35% { transform: translateX(-4px); } 70% { transform: translateX(4px); } }
